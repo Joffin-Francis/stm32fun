@@ -1,0 +1,10 @@
+01:13:16 **** Incremental Build of configuration Debug for project blackpill_blink ****
+make -j8 all 
+arm-none-eabi-size  blackpill_blink.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10868	    104	   1976	  12948	   3294	blackpill_blink.elf
+Finished building: default.size.stdout
+ 
+
+01:13:17 Build Finished. 0 errors, 0 warnings. (took 209ms)
+
